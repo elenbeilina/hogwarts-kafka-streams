@@ -21,7 +21,5 @@ class Producer {
         for (var i = 1; i < 30; i++) {
             kafkaTemplate.send(topicConfig.getName(), harryPotter.house(), harryPotter.character());
         }
-
-        System.exit(0);
     }
 }

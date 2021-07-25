@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Consumer {
 
-    @KafkaListener(id = "students_consumer", topics = "#{@housesTopicConfig.getName()}")
+    @KafkaListener(id = "students_consumer", topics = "#{@spellCasterTopicConfig.getName()}")
     public void consumer(ConsumerRecord<String, String> myRecord) {
         System.out.println("Student " + myRecord.value() + " is from " + myRecord.key());
     }

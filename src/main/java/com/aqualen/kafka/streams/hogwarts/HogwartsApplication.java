@@ -1,10 +1,10 @@
 package com.aqualen.kafka.streams.hogwarts;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.kafka.annotation.EnableKafkaStreams;
 
-@Slf4j
+@EnableKafkaStreams
 @SpringBootApplication
 public class HogwartsApplication {
     public static void main(String[] args) {
