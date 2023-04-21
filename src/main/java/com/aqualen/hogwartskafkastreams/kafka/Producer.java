@@ -1,6 +1,6 @@
-package com.aqualen.kafka.streams.hogwarts.kafka;
+package com.aqualen.hogwartskafkastreams.kafka;
 
-import com.aqualen.kafka.streams.hogwarts.config.HousesTopicConfig;
+import com.aqualen.hogwartskafkastreams.config.HousesTopicConfig;
 import com.github.javafaker.Faker;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.event.ApplicationStartedEvent;

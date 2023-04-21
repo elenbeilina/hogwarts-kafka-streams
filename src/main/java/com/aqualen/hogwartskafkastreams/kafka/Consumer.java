@@ -1,4 +1,4 @@
-package com.aqualen.kafka.streams.hogwarts.kafka;
+package com.aqualen.hogwartskafkastreams.kafka;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;

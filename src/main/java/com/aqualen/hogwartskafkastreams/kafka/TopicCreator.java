@@ -1,7 +1,7 @@
-package com.aqualen.kafka.streams.hogwarts.kafka;
+package com.aqualen.hogwartskafkastreams.kafka;
 
-import com.aqualen.kafka.streams.hogwarts.config.HousesTopicConfig;
-import com.aqualen.kafka.streams.hogwarts.config.TopicConfig;
+import com.aqualen.hogwartskafkastreams.config.HousesTopicConfig;
+import com.aqualen.hogwartskafkastreams.config.TopicConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;

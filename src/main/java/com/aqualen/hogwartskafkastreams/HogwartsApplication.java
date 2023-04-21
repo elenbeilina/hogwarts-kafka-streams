@@ -1,4 +1,4 @@
-package com.aqualen.kafka.streams.hogwarts;
+package com.aqualen.hogwartskafkastreams;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

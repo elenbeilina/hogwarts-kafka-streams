@@ -1,4 +1,4 @@
-package com.aqualen.kafka.streams.hogwarts.config;
+package com.aqualen.hogwartskafkastreams.config;
 
 import lombok.Data;
 import org.springframework.context.annotation.Configuration;
